@@ -1,0 +1,8 @@
+# Lesson 15 - If Statement Part 3
+
+name = input("What is your name? ")
+
+if name == "":
+    print("You did not type in your name!")
+else:
+    print(f"Hello, {name}!")
