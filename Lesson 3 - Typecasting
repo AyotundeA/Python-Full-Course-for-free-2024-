@@ -1,0 +1,8 @@
+# Lesson 3 - Typecasting
+
+name = "Ayo Ambali"
+age = 25
+gpa = 3.2
+is_student = True
+
+print(name, age, gpa, is_student)
