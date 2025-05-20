@@ -1,0 +1,12 @@
+# Lesson 9 - Arithmetic & Math Part 3
+
+import math
+
+x = 9.9
+
+print(math.pi)
+print(math.e)
+
+result1 = math.sqrt(x)
+result2 = math.ceil(x)
+result3 = math.floor(x)
