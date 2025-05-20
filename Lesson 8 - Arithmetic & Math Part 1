@@ -1,0 +1,34 @@
+# Lesson 8 - Arithmetic & Math Part 1
+
+friends1 = 10
+friends2 = 20
+friends3 = 30
+friends4 = 40
+friends5 = 50
+friends6 = 60
+friends7 = 70
+friends8 = 80
+friends9 = 90
+
+friends1 = friends1 + 1
+friends2 += 1
+friends3 = friends3 - 2
+friends4 -= 2
+friends5 = friends5 * 3
+friends5 *= 3
+friends6 = friends6 / 2
+friends6 /= 2
+friends7 = friends7 ** 2
+friends8 **= 2
+remainder = friends9 % 3
+
+print(remainder)
+print(friends1)
+print(friends2)
+print(friends3)
+print(friends4)
+print(friends5)
+print(friends6)
+print(friends7)
+print(friends8)
+print(friends9)
