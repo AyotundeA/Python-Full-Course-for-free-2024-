@@ -1,0 +1,10 @@
+# Lesson 13 - Arithmetic & Math Part 6
+
+import math
+
+a = float(input("Enter a number: "))
+b = float(input("Enter b number: "))
+
+c = math.sqrt(pow(a,2) + pow(b,2))
+
+print(f"Side C = {c}")
