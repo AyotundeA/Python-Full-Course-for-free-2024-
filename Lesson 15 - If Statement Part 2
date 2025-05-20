@@ -1,0 +1,9 @@
+# Lesson 15 - If Statement Part 2
+
+response = input("Would you like food? (Y/N): ")
+
+if response == "Y":
+    print("Okay, here you go.")
+else:
+    print("No food for you!")
+    
