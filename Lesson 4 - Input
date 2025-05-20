@@ -1,4 +1,4 @@
-# Lesson 4 - Input Part 1
+# Lesson 4 - Input
 
 name = input("What is your name?: ")
 
