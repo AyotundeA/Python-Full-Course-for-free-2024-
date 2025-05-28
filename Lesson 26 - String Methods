@@ -1,0 +1,19 @@
+# Lesson 26 - String Methods
+
+name = input("What is your name? ")
+
+result = len(name)
+result2 = name.find("o")
+result3 = name.rfind("q")
+name = name.capitalize()
+name2 = name.upper()
+name3 = name.lower()
+result4 = name.isdigit()
+
+print("How many letters in the word " + str(result))
+print(result2)
+print(result3)
+print(result4)
+print("Capitalized " + name)
+print("UPPERCASE " + name2)
+print("lowercase " + name3)
