@@ -1,0 +1,16 @@
+# Lesson 28 - String Indexing
+
+credit_number = "1234-5678-9012-3456"
+
+# Gets the character at index 4.
+print(credit_number[4])
+# Slices from index 0 up to (but not including) index 4.
+print(credit_number[0:4])
+# Slices from index 5 to 8 (9 is excluded).
+print(credit_number[5:9])
+# Slices from index 5 to the end of the string.
+print(credit_number[5:])
+# Negative index -1 means the last character.
+print(credit_number[-1])
+# This uses slice notation with a step.
+print(credit_number[::3])
