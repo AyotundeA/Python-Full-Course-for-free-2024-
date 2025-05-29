@@ -1,0 +1,7 @@
+# Lesson 29 - String Indexing Part 2
+
+credit_number = "1234-5678-9012-3456"
+
+# [-4:] slices the last 4 characters of the string → "3456"
+last_digits = credit_number[-4:]
+print(f"XXXX-XXXX-XXXX-{last_digits}")
