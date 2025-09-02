@@ -1,0 +1,19 @@
+# Lesson 40 - Lists, Sets, and Tuples
+
+fruits = ['banana', 'apple', 'orange', 'coconut']
+print(dir(fruits))
+# print(help(fruits))
+print(len(fruits))
+print("pineapple" in fruits)
+
+fruits[0] = "pineapple"
+fruits.append("pineapple")
+fruits.remove("apple")
+fruits.insert(0, "pineapple")
+fruits.sort()
+fruits.reverse()
+fruits.clear()
+# print(fruits.index("apple"))
+fruits.count("banana")
+
+print(fruits)
